@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +29,66 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+ .header-color {
+  background: #314755; 
+  background: -webkit-linear-gradient(to right, #26a0da, #314755);
+  background: linear-gradient(to right, #26a0da, #314755); 
+} 
+
+.landing-grid {
+  background: #314755;  
+  background: -webkit-linear-gradient(to right, #26a0da, #314755);
+  background: linear-gradient(to right, #26a0da, #314755); 
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  text-align: center;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.text-banner {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.text-banner h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.text-banner hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.text-banner p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
