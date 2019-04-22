@@ -13,7 +13,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: inherit;
+    z-index: -3
 }
 
 .bg:before {
@@ -22,7 +22,7 @@
     height: 100%;
     background: #000;
     position: fixed;
-    z-index: -1;
+    z-index: 4;
     top: 0;
     left: 0;
     opacity: .3
@@ -72,7 +72,6 @@
     height: 100%;
     perspective: 600px;
     -webkit-perspective: 600px;
-    z-index: -1
 }
 
 .star-field .layer {

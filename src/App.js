@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-// import './galaxy.scss';
+import './galaxy.scss';
 import {Layout, Header, Navigation, Content, Drawer} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-    <div className="demo-big-content star-field">
+    <div className="demo-big-content ">
         <Layout> 
             <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
                 <Navigation>
@@ -27,8 +27,12 @@ class App extends Component {
                 </Navigation>
             </Drawer>
             <Content>
-                <div className="layer"></div>
+                <div class="star-field">
+                <div class="layer"></div>
+                <div class="layer"></div>
+                <div class="layer"></div>
                 < div className = "page-content layer" / >
+                </div>
                 <Main/>
             </Content>
         </Layout>
